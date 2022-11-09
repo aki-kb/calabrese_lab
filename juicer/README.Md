@@ -1,9 +1,11 @@
 
-# Hi-C analysis Juicer 
-$ juicer.sh -y mm9_Arima.txt -C 90000000 -L 15840 -Q 15840
+# Hi-C Analysis
 
-# Mega 
-$ mega.sh -g mm9 -L 15840 -Q 15840
+## Juicer 
+juicer.sh -y mm9_Arima.txt -C 90000000 -L 15840 -Q 15840
 
-# Viewpoint 
+## Mega 
+mega.sh -g mm9 -L 15840 -Q 15840
+
+## Viewpoint
 java -Xmx4048m -jar juicer_tools.jar pre merged_nodups.txt output.hic mm9
