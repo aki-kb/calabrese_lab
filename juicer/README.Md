@@ -16,4 +16,4 @@ $ sh snps_from-vcf.sh
 ## Run diploid.pl to generate allelic Hi-C contacts and .hic files
 $ sh juicer_diploid_v6.sh <br />
 $ sh juicer_allelic-make.sh <p />
-juicer_diploid_v6.sh downloaded and modified from https://github.com/aidenlab/juicer
+Diploid.pl and commands in juicer_diploid_v6.sh were downloaded and modified from https://github.com/aidenlab/juicer
