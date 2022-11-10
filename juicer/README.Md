@@ -10,7 +10,7 @@ $ mega.sh -g mm9 -L 15840 -Q 15840 <p />
 mega.sh downloaded from https://github.com/aidenlab/juicer
 
 ## Generate chromosome-specific SNP input files for Juicer's diploid.pl
-$ python splitVCF_byChr.py <sanger-mouse-snps>.vcf <br />
+$ python splitVCF_byChr.py  mgp.v2.snps.annot.reformat.vcf <br />
 $ sh snps_from-vcf.sh
 
 ## Run diploid.pl to generate allelic Hi-C contacts and .hic files
