@@ -1,5 +1,5 @@
 
-# Hi-C Analysis
+# Hi-C Analysis Pipeline
 
 ## Juicer 
 $ juicer.sh -y mm9_Arima.txt -C 90000000 -L 15840 -Q 15840
