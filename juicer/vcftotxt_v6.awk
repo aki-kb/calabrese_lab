@@ -25,6 +25,8 @@
 # Parse VCF file into paternal_maternal and chr_pos
 # Note that designation is arbitrary as to which comes first
 # We'll name "paternal" the first allele and "maternal" the second
+# NOTE: Script was modified according to mgp.v2.snps.annot.reformat.vcf format.
+# NOTE: Script to be used on chromosome-specific vcf files.
 #
 # Header of VCF
 #1. #CHROM
