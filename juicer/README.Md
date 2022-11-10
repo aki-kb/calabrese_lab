@@ -13,7 +13,8 @@ $ python splitVCF_byChr.py <sanger-mouse-snps>.vcf <br />
 $ sh snps_from-vcf.sh
 
 ## Generate allelic Hi-C contacts and .hic files
-$ sh juicer_diploid_v6.sh
+$ sh juicer_diploid_v6.sh <br />
+$ sh juicer_allelic-make.sh
 
 ## Viewpoint
 $ java -Xmx4048m -jar juicer_tools.jar pre merged_nodups.txt output.hic mm9
