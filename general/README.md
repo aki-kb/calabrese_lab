@@ -6,6 +6,7 @@ $ perl bigbowtie_to_wig3_mm9.pl B6.sam output color
   
 ### Extract B6/CAST SNP-overlapping reads
 $ perl intersect_reads_snps17.pl B6.sam CAST.sam sanger_mm9_09_14_11 y/n output <p />
+sanger_mm9_09_14_11 contains genomic positions of B6/CAST SNPs from Sanger institue <br />
 y/n = paired end data?
   
 ### 40kb binning (w/ 4kb slide) of total, non-allelic read counts
