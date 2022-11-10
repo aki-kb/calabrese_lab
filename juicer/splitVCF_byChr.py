@@ -4,7 +4,7 @@
 This script will read in a full Sanger mouse genome project SNP VCF file
 and separate SNP entries by chromosome into separate VCF files.
 
-Run before snps_fromvcf.sh.
+Run before snps_from-vcf.sh.
 
 USAGE: python splitVCF_byChr.py  mgp.v2.snps.annot.reformat.vcf
 
