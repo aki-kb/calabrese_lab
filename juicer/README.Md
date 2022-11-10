@@ -13,7 +13,7 @@ mega.sh downloaded from https://github.com/aidenlab/juicer
 $ python splitVCF_byChr.py <sanger-mouse-snps>.vcf <br />
 $ sh snps_from-vcf.sh
 
-## Generate allelic Hi-C contacts and .hic files
+## Run diploid.pl to generate allelic Hi-C contacts and .hic files
 $ sh juicer_diploid_v6.sh <br />
 $ sh juicer_allelic-make.sh <p />
 juicer_diploid_v6.sh downloaded and modified from https://github.com/aidenlab/juicer
