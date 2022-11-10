@@ -1,3 +1,14 @@
 
 # ChIP-, CHART-, and RNA-Seq Analysis
-Scripts used in Braceros et al. 2012 manuscript to extract B6/CAST SNP-overlapping reads.
+
+### Generate wiggle file from total, non-allelic mm9-aligned reads
+$ perl bigbowtie_to_wig3_mm9.pl <input>.sam <outfile> <color>
+  
+### Extract B6/CAST SNP-overlapping reads
+$ perl intersect_reads_snps17.pl <B6>.sam <CAST>.sam sanger_mm9_09_14_11 <y/n, paired end?> <output>
+  
+### 40kb binning (w/ 4kb slide) of total, non-allelic read counts
+$ bedtools coverage -counts -sorted -g chr_sizes_sort.txt -a mm9_40bin_4slide.bed -b <sorted <B6, sorted>.bam > <output>
+  
+### 10kb binning of allelic read counts
+$ perl ase_analyzer8_hDbed.pl <input> all-chr_mm9_10kb-bin.bed <output>
