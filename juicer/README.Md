@@ -11,7 +11,8 @@ mega.sh downloaded from https://github.com/aidenlab/juicer
 
 ## Generate chromosome-specific SNP input files for Juicer's diploid.pl
 $ python splitVCF_byChr.py  mgp.v2.snps.annot.reformat.vcf <br />
-$ sh snps_from-vcf.sh
+$ sh snps_from-vcf.sh <p />
+vcftotxt_v6.awk in snps_from-vcf.sh was downloaded and modified from https://github.com/aidenlab/juicer
 
 ## Run diploid.pl to generate allelic Hi-C contacts and .hic files
 $ sh juicer_diploid_v6.sh <br />
