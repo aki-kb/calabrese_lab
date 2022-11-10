@@ -2,10 +2,12 @@
 # Hi-C Analysis Pipeline
 
 ## Juicer 
-$ juicer.sh -y mm9_Arima.txt -C 90000000 -L 15840 -Q 15840
+$ juicer.sh -y mm9_Arima.txt -C 90000000 -L 15840 -Q 15840 <br />
+juicer.sh downloaded from https://github.com/aidenlab/juicer
 
 ## Mega 
-#### $ mega.sh -g mm9 -L 15840 -Q 15840
+#### $ mega.sh -g mm9 -L 15840 -Q 15840 <br />
+mega.sh downloaded from https://github.com/aidenlab/juicer
 
 ## Generate chromosome-specific SNP input files for Juicer's diploid.pl
 $ module load python/2.7.3 <br />
