@@ -5,7 +5,7 @@ use warnings;
 use Getopt::Std;
 use Time::Local;
 
-## USAGE: perl bigbowtie_to_wig3_mm9.pl <input>.sam <outfile> <color>
+## USAGE: perl bigbowtie_to_wig3_mm9.pl <input>.sam <output> <color>
 
 ###   MAIN   ###
 
