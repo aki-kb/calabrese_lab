@@ -2,11 +2,11 @@
 # Custom Perl Scripts <br />
 Scripts used for ChIP-/CHART-/RNA-Seq analyses.
 <p />
-### Generate wiggle file from total, non-allelic mm9-aligned reads
+### Generate wiggle file from total, non-allelic mm9-aligned reads <br />
 ```
 $ perl bigbowtie_to_wig3_mm9.pl B6.sam output color
 ```
-B6.sam contains MAPQ>=30 reads
+B6.sam contains MAPQ>=30 reads <p />
   
 ### Extract B6/CAST SNP-overlapping reads
 ```
