@@ -1,5 +1,5 @@
 
-# ChIP-, CHART-, and RNA-Seq Analysis
+# Custom Perl Scripts
 
 ### Generate wiggle file from total, non-allelic mm9-aligned reads
 ```
