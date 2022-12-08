@@ -6,4 +6,4 @@ Contact aki@med.unc.edu and jmcalabr@med.unc.edu
 
 ## Hardware and Software Requirements
 Cluster requirements: <p />
-Our batch scripts were works with the SLURM resource management software.
+Our batch scripts are compatible with the SLURM resource management software.
