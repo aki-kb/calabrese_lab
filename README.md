@@ -1,4 +1,4 @@
-# Braceros et al. 2012
+# Braceros et al. 2023 - Proximity-dependent recruiment of Polycomb Repressive Complexes by the Airn lncRNA
 Scripts and commands used for Braceros et al. 2022 manuscript.
 ## Questions?
 Contact aki@med.unc.edu and jmcalabr@med.unc.edu
