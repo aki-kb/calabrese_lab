@@ -12,7 +12,6 @@ B6.sam contains MAPQ>=30 reads <p />
 ```
 $ perl intersect_reads_snps17.pl B6.sam CAST.sam sanger_mm9_09_14_11 y/n output
 ```
-< br / >
 B6.sam and CAST/sam contain MAPQ>=30 reads <br />
 sanger_mm9_09_14_11 contains mm9 genomic positions of B6/CAST SNPs from Sanger institue <br />
 y/n = paired end data?
