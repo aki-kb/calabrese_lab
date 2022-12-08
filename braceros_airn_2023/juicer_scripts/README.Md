@@ -9,7 +9,7 @@ juicer.sh downloaded from https://github.com/aidenlab/juicer
 
 ## Mega 
 ```
-$ mega.sh -g mm9 -L 15840 -Q 15840 <p />
+$ mega.sh -g mm9 -L 15840 -Q 15840
 ```
 mega.sh downloaded from https://github.com/aidenlab/juicer
 
