@@ -1,6 +1,6 @@
 
 # Custom Perl Scripts <br />
-Scripts used for ChIP-/CHART-/RNA-Seq analyses.
+Scripts and commands used for ChIP-/CHART-/RNA-Seq analyses.
 
 ### Generate wiggle file from total, non-allelic mm9-aligned reads
 ```
